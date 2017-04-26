@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Классная работа</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway');
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        ul{
+            text-align: center;
+            height: 100vh;
+        }
+        li{
+            display: block;
+            margin: 10px;
+        }
+        a{
+            padding: 20px;
+        }
+        nav{
+            text-align: center;
+           top: 0;
+           left: -200px;
+           position: fixed;
+            background: bisque;
+           transition: 5s;
+        }
+        button{
+           position: absolute;
+           top: 20px;
+           right: -100px;
+       }
+       .menu_is-open{
+           left: 0;
+       }
+        .pp{
+            font-size: 1rem;
+            font-family: 'Raleway', sans-serif;
+        }
+        .parks{
+            color: #014101;
+        }
+        @media(min-width:768px){
+            article{
+                width: 400px;
+                vertical-align: top;
+                display: inline-block;
+                margin: 10px;
+            }
+        }
+        @media(min-width:1024px){
+            article{
+                 width: 400px;
+                vertical-align: top;
+                display: inline-block;
+                 margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Адаптивный сайт</h1>
+        <nav id="menu_id">
+            <ul>
+                <li><a href="#art1">Parks</a></li>
+                <li><a href="#art2">Автомобили</a></li>
+                <li><a href="#art3">Пирожные</a></li>
+            </ul>
+            <button id="button_id">Открыть</button>
+        </nav>
+    </header>
+    <main>
+        <section id="art1">
+            <header>
+                <h2>Parks</h2>
+            </header>
+            <p class="pp">
+                Millions of Londoners and tourists visit the eight Royal Parks for free each year. The 5,000 acres of historic parkland provide unparalleled opportunities for enjoyment, exploration and healthy living in the heart of the capital. A simple walk or a picnic in the park, sport, top quality entertainment, community and education projects - all waiting for you.
+            </p>
+            <article>
+                <header>
+                    <h3 class="parks">The Green Park</h3>
+                </header>
+                <img src="https://www.royalparks.org.uk/_media/images/the-green-park/cover-photos/Green-Park-cover-photo.jpg/w_265.jpg">
+                <p>
+                    The Green Park is a peaceful refuge for people living, working or visiting central London, and is particularly popular for sunbathing and picnics in fine weather. It is also popular as a healthy walking route to work for commuters.
+                </p>
+                <footer>
+                    <cite>www.royalparks.org.uk/parks</cite>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h3 class="parks">The Regent's Park and Primrose Hill</h3>
+                </header>
+                <img src="https://www.royalparks.org.uk/_media/images/the-regents-park-and-primrose-hill/cover-photos/Regents-Park-Avenue-Garden.jpg/w_265.jpg">
+                <p>
+                    The Regent's Park is the largest grass area for sports in Central London and offers a wide variety of activities, as well as an Open Air Theatre, the London Zoo and many cafes and restaurants.
+                </p>
+                <footer>
+                    <cite>www.royalparks.org.uk/parks</cite>
+                </footer>
+            </article>
+        </section>
+        
+        <section id="art2">
+            <header>
+                <h2>Автомобили</h2>
+            </header>
+            <article>
+                <header>
+                    <h3>BMW I8</h3>
+                </header>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/2015_BMW_i8_%2820039281571%29_%282%29.jpg/280px-2015_BMW_i8_%2820039281571%29_%282%29.jpg">
+                <p>
+                    Спортивный автомобиль в новой интерпретации. Более экономичен благодаря продуманной облегченной и обтекаемой конструкции с использованием карбона. Более экологичен благодаря высокоэффективной технологии BMW eDrive и применению в отделке салона материалов, допускающих переработку и повторное использование. И всё это без ущерба динамическим показателям и спортивному внешнему виду. Бескомпромиссное сочетание удовольствия за рулем и ответственного отношения к окружающей среде. BMW i8 — автомобиль с подключаемым гибридом и возможностью подзарядки от электросети, который объединяет преимущества электромоторов и технологии двигателей внутреннего сгорания. В результате невероятная динамика и удовольствие от вождения становятся возможны при удивительно низком расходе топлива и выбросах CO2.
+                </p>
+                <footer>
+                    <cite>www.bmw.ru/ru/all-models/bmw-i/i8/2014/at-a-glance.html</cite>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h3>Porsche 911 GT3</h3>
+                </header>
+                <img src="http://o.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/376x212/quality/60/https://s.blogcdn.com/slideshows/images/slides/469/499/8/S4694998/slug/s/01-2018-porsche-911-gt3-geneva-1.jpg">
+                <p>
+                    An unadulterated sports car, naturally. One that breathes motorsport and defies the tarmac. A race car that pushes its drivers into their Sports seats more firmly than they would ever have imagined possible.
+                </p>
+                <footer>
+                    <cite>http://www.porsche.com/usa/models/911/911-gt3-models/</cite>
+                </footer>
+            </article>
+        </section>
+        
+        <section id="art3">
+            <header>
+                <h2>Пирожные</h2>
+            </header>
+            <article>
+                <header>
+                    <h3>Тирамису</h3>
+                </header>
+                <img src="http://expertitaly.ru/wp-content/uploads/2015/10/xKak-poyavilsya-italyanskiy-desert-tiramisu.jpg.pagespeed.ic.rny6LlGy1P.jpg">
+                <p>
+                    Тирамису́ — итальянский многослойный десерт, в состав которого входят следующие продукты: сыр маскарпоне, кофе, куриные яйца, сахар и печенье савоярди. Как правило, десерт припудривают какао-порошком. Возможна вариация с добавлением грецкого ореха.
+                </p>
+                <footer>
+                    <cite>Wikipedia</cite>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h3>Торт Наполеон</h3>
+                </header>
+                <img src="http://supercook.ru/images-dessert/tort-napoleon-07.jpg">
+                <p>
+                    «Наполео́н» — слоёный торт или пирожное с кремом. Готовится из слоеного теста с кремовой прокладкой
+                </p>
+                <footer>
+                    <cite>Wikipedia</cite>
+                </footer>
+            </article>
+        </section>
+    </main>
+    <script>
+        button_id.addEventListener('click', function(){
+        menu_id.classList.toggle('menu_is-open');
+        })
+    </script>
+</body>
+</html>
